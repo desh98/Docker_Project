@@ -1,0 +1,659 @@
+1713456871: mosquitto version 2.0.18 starting
+1713456871: Config loaded from /mosquitto/config/mosquitto.conf.
+1713456871: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713456871: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713456871: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713456871: Opening ipv4 listen socket on port 1883.
+1713456871: Opening ipv6 listen socket on port 1883.
+1713456871: mosquitto version 2.0.18 running
+1713456883: mosquitto version 2.0.18 terminating
+1713456883: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713456906: mosquitto version 2.0.18 starting
+1713456906: Config loaded from /mosquitto/config/mosquitto.conf.
+1713456906: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713456906: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713456906: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713456906: Opening ipv4 listen socket on port 1883.
+1713456906: Opening ipv6 listen socket on port 1883.
+1713456906: mosquitto version 2.0.18 running
+1713457113: mosquitto version 2.0.18 terminating
+1713457113: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713457123: mosquitto version 2.0.18 starting
+1713457123: Config loaded from /mosquitto/config/mosquitto.conf.
+1713457123: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713457123: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713457123: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713457123: Opening ipv4 listen socket on port 1883.
+1713457123: Opening ipv6 listen socket on port 1883.
+1713457123: mosquitto version 2.0.18 running
+1713457225: New connection from 127.0.0.1:48562 on port 1883.
+1713457225: New client connected from 127.0.0.1:48562 as auto-208E9B21-3395-AABD-1798-C49DFF3FEE66 (p2, c1, k60, u'test').
+1713457225: Client auto-208E9B21-3395-AABD-1798-C49DFF3FEE66 disconnected.
+1713457235: New connection from 127.0.0.1:46120 on port 1883.
+1713457235: New client connected from 127.0.0.1:46120 as auto-72A6E9A2-CDFB-9313-4C4D-E59235DA5665 (p2, c1, k60, u'test').
+1713457235: Client auto-72A6E9A2-CDFB-9313-4C4D-E59235DA5665 disconnected.
+1713457250: New connection from 127.0.0.1:32912 on port 1883.
+1713457250: New client connected from 127.0.0.1:32912 as auto-7BA768DE-AC46-0DBD-00FC-3245A9A01BF2 (p2, c1, k60, u'test').
+1713457250: Client auto-7BA768DE-AC46-0DBD-00FC-3245A9A01BF2 disconnected.
+1713457252: New connection from 127.0.0.1:32914 on port 1883.
+1713457252: New client connected from 127.0.0.1:32914 as auto-B9B80B03-F7CD-D156-9B8C-7D9553AB4B96 (p2, c1, k60, u'test').
+1713457252: Client auto-B9B80B03-F7CD-D156-9B8C-7D9553AB4B96 disconnected.
+1713457299: New connection from 127.0.0.1:57918 on port 1883.
+1713457299: New client connected from 127.0.0.1:57918 as auto-46777236-7919-6EB3-C3C3-45F51600F194 (p2, c1, k60, u'test').
+1713457299: Client auto-46777236-7919-6EB3-C3C3-45F51600F194 disconnected.
+1713457322: mosquitto version 2.0.18 terminating
+1713457322: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713457692: mosquitto version 2.0.18 starting
+1713457692: Config loaded from /mosquitto/config/mosquitto.conf.
+1713457692: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713457692: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713457692: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713457692: Opening ipv4 listen socket on port 1883.
+1713457692: Opening ipv6 listen socket on port 1883.
+1713457692: mosquitto version 2.0.18 running
+1713457731: New connection from 172.21.0.1:33776 on port 1883.
+1713457731: Client <unknown> disconnected due to protocol error.
+1713457732: New connection from 172.21.0.1:33778 on port 1883.
+1713457732: Client <unknown> disconnected due to protocol error.
+1713457853: New connection from 127.0.0.1:60448 on port 1883.
+1713457853: New client connected from 127.0.0.1:60448 as auto-E409BB47-AE4D-702D-F3E7-6B2E9418F61D (p2, c1, k60, u'test').
+1713457881: New connection from 127.0.0.1:54886 on port 1883.
+1713457881: New client connected from 127.0.0.1:54886 as auto-80739CCA-B0A8-62A1-D518-4577CB106661 (p2, c1, k60, u'test').
+1713457881: Client auto-80739CCA-B0A8-62A1-D518-4577CB106661 disconnected.
+1713457891: New connection from 127.0.0.1:46918 on port 1883.
+1713457891: New client connected from 127.0.0.1:46918 as auto-85F0ABF4-6256-CFAC-7BEF-CAC35730A94B (p2, c1, k60, u'test').
+1713457891: Client auto-85F0ABF4-6256-CFAC-7BEF-CAC35730A94B disconnected.
+1713514854: mosquitto version 2.0.18 starting
+1713514854: Config loaded from /mosquitto/config/mosquitto.conf.
+1713514854: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713514854: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713514854: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713514854: Opening ipv4 listen socket on port 1883.
+1713514854: Opening ipv6 listen socket on port 1883.
+1713514854: mosquitto version 2.0.18 running
+1713514992: New connection from 127.0.0.1:52524 on port 1883.
+1713514992: New client connected from 127.0.0.1:52524 as auto-635129DE-EBAA-8B87-00B1-8C6EED76C6CA (p2, c1, k60, u'test').
+1713514992: Client auto-635129DE-EBAA-8B87-00B1-8C6EED76C6CA disconnected.
+1713515018: New connection from 127.0.0.1:43908 on port 1883.
+1713515018: New client connected from 127.0.0.1:43908 as auto-198A2120-4E5E-7083-4DA3-DE97A5C9831D (p2, c1, k60, u'test').
+1713515081: New connection from 127.0.0.1:56856 on port 1883.
+1713515081: New client connected from 127.0.0.1:56856 as auto-2705D848-9561-BC79-43D4-898EA2D73EA5 (p2, c1, k60, u'test').
+1713515081: Client auto-2705D848-9561-BC79-43D4-898EA2D73EA5 disconnected.
+1713515570: mosquitto version 2.0.18 starting
+1713515570: Config loaded from /mosquitto/config/mosquitto.conf.
+1713515570: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713515570: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713515570: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713515570: Opening ipv4 listen socket on port 1883.
+1713515570: Opening ipv6 listen socket on port 1883.
+1713515570: mosquitto version 2.0.18 running
+1713515625: New connection from 127.0.0.1:56188 on port 1883.
+1713515625: New client connected from 127.0.0.1:56188 as auto-46DFF747-F945-6F0D-BE4E-F2B8DBA9BFBF (p2, c1, k60, u'admin').
+1713515679: New connection from 127.0.0.1:38106 on port 1883.
+1713515679: New client connected from 127.0.0.1:38106 as auto-CAE9AB25-4516-2226-3152-F658304DF256 (p2, c1, k60, u'admin').
+1713515679: Client auto-CAE9AB25-4516-2226-3152-F658304DF256 disconnected.
+1713516974: mosquitto version 2.0.18 terminating
+1713516974: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713516976: mosquitto version 2.0.18 starting
+1713516976: Config loaded from /mosquitto/config/mosquitto.conf.
+1713516976: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713516976: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713516976: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713516976: Opening ipv4 listen socket on port 1883.
+1713516976: Opening ipv6 listen socket on port 1883.
+1713516976: mosquitto version 2.0.18 running
+1713520490: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713522291: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713524448: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713529226: mosquitto version 2.0.18 terminating
+1713529226: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713529228: mosquitto version 2.0.18 starting
+1713529228: Config loaded from /mosquitto/config/mosquitto.conf.
+1713529228: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713529228: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713529228: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713529228: Opening ipv4 listen socket on port 1883.
+1713529228: Opening ipv6 listen socket on port 1883.
+1713529228: mosquitto version 2.0.18 running
+1713536967: mosquitto version 2.0.18 terminating
+1713536967: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713537110: mosquitto version 2.0.18 starting
+1713537110: Config loaded from /mosquitto/config/mosquitto.conf.
+1713537110: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713537110: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713537110: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713537110: Opening ipv4 listen socket on port 1883.
+1713537110: Opening ipv6 listen socket on port 1883.
+1713537110: mosquitto version 2.0.18 running
+1713537177: mosquitto version 2.0.18 terminating
+1713537177: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713537188: mosquitto version 2.0.18 starting
+1713537188: Config loaded from /mosquitto/config/mosquitto.conf.
+1713537188: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713537188: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713537188: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713537188: Opening ipv4 listen socket on port 1883.
+1713537188: Opening ipv6 listen socket on port 1883.
+1713537188: mosquitto version 2.0.18 running
+1713537215: mosquitto version 2.0.18 terminating
+1713537215: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713537294: mosquitto version 2.0.18 starting
+1713537294: Config loaded from /mosquitto/config/mosquitto.conf.
+1713537294: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713537294: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713537294: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713537294: Opening ipv4 listen socket on port 1883.
+1713537294: Opening ipv6 listen socket on port 1883.
+1713537294: mosquitto version 2.0.18 running
+1713538044: mosquitto version 2.0.18 terminating
+1713538044: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713756877: mosquitto version 2.0.18 starting
+1713756877: Config loaded from /mosquitto/config/mosquitto.conf.
+1713756877: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713756877: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713756877: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713756877: Opening ipv4 listen socket on port 1883.
+1713756877: Opening ipv6 listen socket on port 1883.
+1713756877: mosquitto version 2.0.18 running
+1713756894: mosquitto version 2.0.18 terminating
+1713756894: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713760367: mosquitto version 2.0.18 starting
+1713760367: Config loaded from /mosquitto/config/mosquitto.conf.
+1713760367: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713760367: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713760367: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713760367: Opening ipv4 listen socket on port 1883.
+1713760367: Opening ipv6 listen socket on port 1883.
+1713760367: mosquitto version 2.0.18 running
+1713760486: mosquitto version 2.0.18 terminating
+1713760486: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713760487: mosquitto version 2.0.18 starting
+1713760487: Config loaded from /mosquitto/config/mosquitto.conf.
+1713760487: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713760487: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713760487: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713760487: Opening ipv4 listen socket on port 1883.
+1713760487: Opening ipv6 listen socket on port 1883.
+1713760487: mosquitto version 2.0.18 running
+1713760777: mosquitto version 2.0.18 terminating
+1713760777: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713760778: mosquitto version 2.0.18 starting
+1713760778: Config loaded from /mosquitto/config/mosquitto.conf.
+1713760778: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713760778: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713760778: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713760778: Opening ipv4 listen socket on port 1883.
+1713760778: Opening ipv6 listen socket on port 1883.
+1713760778: mosquitto version 2.0.18 running
+1713776560: mosquitto version 2.0.18 starting
+1713776560: Config loaded from /mosquitto/config/mosquitto.conf.
+1713776560: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713776560: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713776560: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713776560: Opening ipv4 listen socket on port 1883.
+1713776560: Opening ipv6 listen socket on port 1883.
+1713776560: mosquitto version 2.0.18 running
+1713781449: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713783250: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713784007: mosquitto version 2.0.18 terminating
+1713784007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713784010: mosquitto version 2.0.18 starting
+1713784010: Config loaded from /mosquitto/config/mosquitto.conf.
+1713784010: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713784010: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713784010: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713784010: Opening ipv4 listen socket on port 1883.
+1713784010: Opening ipv6 listen socket on port 1883.
+1713784010: mosquitto version 2.0.18 running
+1713785811: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713787612: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713933842: mosquitto version 2.0.18 starting
+1713933842: Config loaded from /mosquitto/config/mosquitto.conf.
+1713933842: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713933842: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713933842: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713933842: Opening ipv4 listen socket on port 1883.
+1713933842: Opening ipv6 listen socket on port 1883.
+1713933842: mosquitto version 2.0.18 running
+1713935642: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713937443: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713939244: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713941045: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713942847: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713944648: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713946449: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713948250: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713950051: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713951852: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713954396: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713956197: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713964296: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713966185: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713967986: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713969787: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713971588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713973463: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713975264: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713977196: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713978996: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713981708: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713982031: mosquitto version 2.0.18 terminating
+1713982031: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713982036: mosquitto version 2.0.18 starting
+1713982036: Config loaded from /mosquitto/config/mosquitto.conf.
+1713982036: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713982036: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713982036: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713982036: Opening ipv4 listen socket on port 1883.
+1713982036: Opening ipv6 listen socket on port 1883.
+1713982036: mosquitto version 2.0.18 running
+1713982352: mosquitto version 2.0.18 terminating
+1713982352: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713982354: mosquitto version 2.0.18 starting
+1713982354: Config loaded from /mosquitto/config/mosquitto.conf.
+1713982354: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713982354: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713982354: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713982354: Opening ipv4 listen socket on port 1883.
+1713982354: Opening ipv6 listen socket on port 1883.
+1713982354: mosquitto version 2.0.18 running
+1713982679: mosquitto version 2.0.18 terminating
+1713982679: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713982680: mosquitto version 2.0.18 starting
+1713982680: Config loaded from /mosquitto/config/mosquitto.conf.
+1713982680: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1713982680: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1713982680: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1713982680: Opening ipv4 listen socket on port 1883.
+1713982680: Opening ipv6 listen socket on port 1883.
+1713982680: mosquitto version 2.0.18 running
+1713984481: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714019375: mosquitto version 2.0.18 starting
+1714019375: Config loaded from /mosquitto/config/mosquitto.conf.
+1714019375: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714019375: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714019375: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714019375: Opening ipv4 listen socket on port 1883.
+1714019375: Opening ipv6 listen socket on port 1883.
+1714019375: mosquitto version 2.0.18 running
+1714019405: mosquitto version 2.0.18 terminating
+1714019405: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714019424: mosquitto version 2.0.18 starting
+1714019424: Config loaded from /mosquitto/config/mosquitto.conf.
+1714019424: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714019424: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714019424: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714019424: Opening ipv4 listen socket on port 1883.
+1714019424: Opening ipv6 listen socket on port 1883.
+1714019424: mosquitto version 2.0.18 running
+1714021225: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714023026: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714024827: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714026628: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714028429: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714112619: mosquitto version 2.0.18 starting
+1714112619: Config loaded from /mosquitto/config/mosquitto.conf.
+1714112619: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714112619: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714112619: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714112619: Opening ipv4 listen socket on port 1883.
+1714112619: Opening ipv6 listen socket on port 1883.
+1714112619: mosquitto version 2.0.18 running
+1714112932: New connection from 172.21.0.5:51476 on port 1883.
+1714112932: New client connected from 172.21.0.5:51476 as nodered_d330a51b45668236 (p2, c1, k60, u'admin').
+1714113292: Client nodered_d330a51b45668236 disconnected.
+1714113292: New connection from 172.21.0.5:54130 on port 1883.
+1714113292: New client connected from 172.21.0.5:54130 as nodered_8e8ac8306a629c10 (p2, c1, k60, u'admin').
+1714114068: Client nodered_8e8ac8306a629c10 disconnected.
+1714114068: New connection from 172.21.0.5:53552 on port 1883.
+1714114068: New client connected from 172.21.0.5:53552 as nodered_aba523590aa32e9e (p2, c1, k60, u'admin').
+1714114106: Client nodered_aba523590aa32e9e disconnected.
+1714114106: New connection from 172.21.0.5:57670 on port 1883.
+1714114106: New client connected from 172.21.0.5:57670 as nodered_cd4feb657905e4ef (p2, c1, k60, u'admin').
+1714114128: Client nodered_cd4feb657905e4ef disconnected.
+1714114128: New connection from 172.21.0.5:56342 on port 1883.
+1714114128: New client connected from 172.21.0.5:56342 as nodered_2a97d080ce8de2c7 (p2, c1, k60, u'admin').
+1714114236: Client nodered_2a97d080ce8de2c7 disconnected.
+1714114236: New connection from 172.21.0.5:38476 on port 1883.
+1714114236: New client connected from 172.21.0.5:38476 as nodered_891c41169c092e7e (p2, c1, k60, u'admin').
+1714114316: Client nodered_891c41169c092e7e disconnected.
+1714114316: New connection from 172.21.0.5:48256 on port 1883.
+1714114316: New client connected from 172.21.0.5:48256 as nodered_d5f1faad03ba1224 (p2, c1, k60, u'admin').
+1714114366: Client nodered_d5f1faad03ba1224 disconnected.
+1714114366: New connection from 172.21.0.5:47600 on port 1883.
+1714114366: New client connected from 172.21.0.5:47600 as nodered_6eb6f724d3f8d918 (p2, c1, k60, u'admin').
+1714114421: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714114662: mosquitto version 2.0.18 terminating
+1714114662: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714114687: mosquitto version 2.0.18 starting
+1714114687: Config loaded from /mosquitto/config/mosquitto.conf.
+1714114687: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714114687: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714114687: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714114687: Opening ipv4 listen socket on port 1883.
+1714114687: Opening ipv6 listen socket on port 1883.
+1714114687: mosquitto version 2.0.18 running
+1714114759: New connection from 172.21.0.6:56986 on port 1883.
+1714114759: New client connected from 172.21.0.6:56986 as nodered_c4495afd09e5f0dd (p2, c1, k60, u'admin').
+1714114763: Client nodered_c4495afd09e5f0dd disconnected.
+1714114786: New connection from 172.21.0.6:59972 on port 1883.
+1714114786: New client connected from 172.21.0.6:59972 as nodered_e5e321ee66413f9c (p2, c1, k60, u'admin').
+1714114890: Client nodered_e5e321ee66413f9c disconnected.
+1714116488: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714129256: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714131058: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714133158: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714136323: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714138248: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714140049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714141850: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714143651: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714145452: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714147253: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714149448: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714151406: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714323503: mosquitto version 2.0.18 starting
+1714323503: Config loaded from /mosquitto/config/mosquitto.conf.
+1714323503: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714323503: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714323503: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714323503: Opening ipv4 listen socket on port 1883.
+1714323503: Opening ipv6 listen socket on port 1883.
+1714323503: mosquitto version 2.0.18 running
+1714324513: mosquitto version 2.0.18 terminating
+1714324513: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714364050: mosquitto version 2.0.18 starting
+1714364050: Config loaded from /mosquitto/config/mosquitto.conf.
+1714364050: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714364050: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714364050: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714364050: Opening ipv4 listen socket on port 1883.
+1714364050: Opening ipv6 listen socket on port 1883.
+1714364050: mosquitto version 2.0.18 running
+1714364063: mosquitto version 2.0.18 terminating
+1714364063: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714365579: mosquitto version 2.0.18 starting
+1714365579: Config loaded from /mosquitto/config/mosquitto.conf.
+1714365579: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714365579: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714365579: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714365579: Opening ipv4 listen socket on port 1883.
+1714365579: Opening ipv6 listen socket on port 1883.
+1714365579: mosquitto version 2.0.18 running
+1714366294: mosquitto version 2.0.18 terminating
+1714366294: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714366296: mosquitto version 2.0.18 starting
+1714366296: Config loaded from /mosquitto/config/mosquitto.conf.
+1714366296: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714366296: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714366296: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714366296: Opening ipv4 listen socket on port 1883.
+1714366296: Opening ipv6 listen socket on port 1883.
+1714366296: mosquitto version 2.0.18 running
+1714366712: mosquitto version 2.0.18 terminating
+1714366712: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714366714: mosquitto version 2.0.18 starting
+1714366714: Config loaded from /mosquitto/config/mosquitto.conf.
+1714366714: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714366714: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714366714: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714366714: Opening ipv4 listen socket on port 1883.
+1714366714: Opening ipv6 listen socket on port 1883.
+1714366714: mosquitto version 2.0.18 running
+1714367912: mosquitto version 2.0.18 terminating
+1714367912: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714367915: mosquitto version 2.0.18 starting
+1714367915: Config loaded from /mosquitto/config/mosquitto.conf.
+1714367915: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714367915: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714367915: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714367915: Opening ipv4 listen socket on port 1883.
+1714367915: Opening ipv6 listen socket on port 1883.
+1714367915: mosquitto version 2.0.18 running
+1714368264: mosquitto version 2.0.18 terminating
+1714368264: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714368272: mosquitto version 2.0.18 starting
+1714368272: Config loaded from /mosquitto/config/mosquitto.conf.
+1714368272: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714368272: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714368272: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714368272: Opening ipv4 listen socket on port 1883.
+1714368272: Opening ipv6 listen socket on port 1883.
+1714368272: mosquitto version 2.0.18 running
+1714368696: mosquitto version 2.0.18 terminating
+1714368696: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714368698: mosquitto version 2.0.18 starting
+1714368698: Config loaded from /mosquitto/config/mosquitto.conf.
+1714368698: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714368698: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714368698: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714368698: Opening ipv4 listen socket on port 1883.
+1714368698: Opening ipv6 listen socket on port 1883.
+1714368698: mosquitto version 2.0.18 running
+1714369184: mosquitto version 2.0.18 terminating
+1714369184: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714369208: mosquitto version 2.0.18 starting
+1714369208: Config loaded from /mosquitto/config/mosquitto.conf.
+1714369208: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714369208: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714369208: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714369208: Opening ipv4 listen socket on port 1883.
+1714369208: Opening ipv6 listen socket on port 1883.
+1714369208: mosquitto version 2.0.18 running
+1714371009: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714372466: New connection from 172.21.0.3:42400 on port 1883.
+1714372466: New client connected from 172.21.0.3:42400 as nodered_bd521c1b7dca11d4 (p2, c1, k60, u'admin').
+1714372810: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714373409: Client nodered_bd521c1b7dca11d4 disconnected.
+1714381912: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714382000: mosquitto version 2.0.18 terminating
+1714382000: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714382125: mosquitto version 2.0.18 starting
+1714382125: Config loaded from /mosquitto/config/mosquitto.conf.
+1714382125: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714382125: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714382125: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714382125: Opening ipv4 listen socket on port 1883.
+1714382125: Opening ipv6 listen socket on port 1883.
+1714382125: mosquitto version 2.0.18 running
+1714383057: mosquitto version 2.0.18 terminating
+1714383057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714383110: mosquitto version 2.0.18 starting
+1714383110: Config loaded from /mosquitto/config/mosquitto.conf.
+1714383110: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714383110: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714383110: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714383110: Opening ipv4 listen socket on port 1883.
+1714383110: Opening ipv6 listen socket on port 1883.
+1714383110: mosquitto version 2.0.18 running
+1714383199: mosquitto version 2.0.18 terminating
+1714383199: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714383203: mosquitto version 2.0.18 starting
+1714383203: Config loaded from /mosquitto/config/mosquitto.conf.
+1714383203: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714383203: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714383203: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714383203: Opening ipv4 listen socket on port 1883.
+1714383203: Opening ipv6 listen socket on port 1883.
+1714383203: mosquitto version 2.0.18 running
+1714383504: mosquitto version 2.0.18 terminating
+1714383504: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714383511: mosquitto version 2.0.18 starting
+1714383511: Config loaded from /mosquitto/config/mosquitto.conf.
+1714383511: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714383511: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714383511: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714383511: Opening ipv4 listen socket on port 1883.
+1714383511: Opening ipv6 listen socket on port 1883.
+1714383511: mosquitto version 2.0.18 running
+1714385153: mosquitto version 2.0.18 terminating
+1714385153: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714385159: mosquitto version 2.0.18 starting
+1714385159: Config loaded from /mosquitto/config/mosquitto.conf.
+1714385159: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714385159: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714385159: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714385159: Opening ipv4 listen socket on port 1883.
+1714385159: Opening ipv6 listen socket on port 1883.
+1714385159: mosquitto version 2.0.18 running
+1714385172: New connection from 172.21.0.3:34012 on port 1883.
+1714385172: New client connected from 172.21.0.3:34012 as nodered_c1f061d141993c46 (p2, c1, k60, u'admin').
+1714385585: mosquitto version 2.0.18 terminating
+1714385585: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714385613: mosquitto version 2.0.18 starting
+1714385613: Config loaded from /mosquitto/config/mosquitto.conf.
+1714385613: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714385613: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714385613: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714385613: Opening ipv4 listen socket on port 1883.
+1714385613: Opening ipv6 listen socket on port 1883.
+1714385613: mosquitto version 2.0.18 running
+1714385619: New connection from 172.21.0.3:58868 on port 1883.
+1714385619: New client connected from 172.21.0.3:58868 as nodered_c1f061d141993c46 (p2, c1, k60, u'admin').
+1714387549: Client nodered_c1f061d141993c46 disconnected.
+1714387549: New connection from 172.21.0.3:38776 on port 1883.
+1714387550: New client connected from 172.21.0.3:38776 as nodered_e59f3eddc87c5022 (p2, c1, k60, u'admin').
+1714387603: Client nodered_e59f3eddc87c5022 disconnected.
+1714387604: New connection from 172.21.0.3:43492 on port 1883.
+1714387604: New client connected from 172.21.0.3:43492 as nodered_89ee787e93c1f3cd (p2, c1, k60, u'admin').
+1714388052: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714389853: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714391654: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714395681: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714397482: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714399283: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714401084: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714402577: mosquitto version 2.0.18 terminating
+1714402577: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714450252: mosquitto version 2.0.18 starting
+1714450252: Config loaded from /mosquitto/config/mosquitto.conf.
+1714450252: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714450252: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714450252: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714450252: Opening ipv4 listen socket on port 1883.
+1714450252: Opening ipv6 listen socket on port 1883.
+1714450252: mosquitto version 2.0.18 running
+1714450297: New connection from 172.21.0.5:33456 on port 1883.
+1714450297: New client connected from 172.21.0.5:33456 as nodered_6a8a8352e1c33938 (p2, c1, k60, u'admin').
+1714452053: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714453854: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714455655: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714457456: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714459444: mosquitto version 2.0.18 terminating
+1714459444: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714464372: mosquitto version 2.0.18 starting
+1714464372: Config loaded from /mosquitto/config/mosquitto.conf.
+1714464372: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714464372: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714464372: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714464372: Opening ipv4 listen socket on port 1883.
+1714464372: Opening ipv6 listen socket on port 1883.
+1714464372: mosquitto version 2.0.18 running
+1714464463: mosquitto version 2.0.18 terminating
+1714464463: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714464491: mosquitto version 2.0.18 starting
+1714464491: Config loaded from /mosquitto/config/mosquitto.conf.
+1714464491: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714464491: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714464491: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714464491: Opening ipv4 listen socket on port 1883.
+1714464491: Opening ipv6 listen socket on port 1883.
+1714464491: mosquitto version 2.0.18 running
+1714464623: mosquitto version 2.0.18 terminating
+1714464623: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714464654: mosquitto version 2.0.18 starting
+1714464654: Config loaded from /mosquitto/config/mosquitto.conf.
+1714464654: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714464654: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714464654: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714464654: Opening ipv4 listen socket on port 1883.
+1714464654: Opening ipv6 listen socket on port 1883.
+1714464654: mosquitto version 2.0.18 running
+1714464841: New connection from 172.21.0.3:54210 on port 1883.
+1714464841: New client connected from 172.21.0.3:54210 as nodered_7dc70a618cf09dc0 (p2, c1, k60, u'admin').
+1714465358: mosquitto version 2.0.18 terminating
+1714465358: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714465497: mosquitto version 2.0.18 starting
+1714465497: Config loaded from /mosquitto/config/mosquitto.conf.
+1714465497: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714465497: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714465497: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714465497: Opening ipv4 listen socket on port 1883.
+1714465497: Opening ipv6 listen socket on port 1883.
+1714465497: mosquitto version 2.0.18 running
+1714465512: New connection from 172.21.0.3:60822 on port 1883.
+1714465512: New client connected from 172.21.0.3:60822 as nodered_7dc70a618cf09dc0 (p2, c1, k60, u'admin').
+1714466341: mosquitto version 2.0.18 terminating
+1714466341: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714466394: mosquitto version 2.0.18 starting
+1714466394: Config loaded from /mosquitto/config/mosquitto.conf.
+1714466394: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714466394: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714466394: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714466394: Opening ipv4 listen socket on port 1883.
+1714466394: Opening ipv6 listen socket on port 1883.
+1714466394: mosquitto version 2.0.18 running
+1714469844: mosquitto version 2.0.18 terminating
+1714469844: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714469852: mosquitto version 2.0.18 starting
+1714469852: Config loaded from /mosquitto/config/mosquitto.conf.
+1714469852: Warning: File passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 passwordfile`.
+1714469852: Warning: File passwordfile owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto passwordfile`.
+1714469852: Warning: File passwordfile group is not mosquitto. Future versions will refuse to load this file.
+1714469852: Opening ipv4 listen socket on port 1883.
+1714469852: Opening ipv6 listen socket on port 1883.
+1714469852: mosquitto version 2.0.18 running
+1714471306: New connection from 172.21.0.2:37120 on port 1883.
+1714471306: New client connected from 172.21.0.2:37120 as nodered_e673c5cc23fce504 (p2, c1, k60, u'admin').
+1714471653: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714472914: Client nodered_e673c5cc23fce504 disconnected.
+1714473454: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714473724: mosquitto version 2.0.18 terminating
+1714473724: Saving in-memory database to /mosquitto/data//mosquitto.db.
