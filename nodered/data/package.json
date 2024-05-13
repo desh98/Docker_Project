@@ -1,0 +1,10 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "3.0.0",
+    "dependencies": {
+        "@gogovega/node-red-contrib-firebase-realtime-database": "0.5.5",
+        "node-red-contrib-influxdb": "0.7.0",
+        "node-red-dashboard": "3.6.5"
+    }
+}

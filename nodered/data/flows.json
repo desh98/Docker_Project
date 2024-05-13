@@ -1,0 +1,214 @@
+[
+    {
+        "id": "71ca1bc44c1ef695",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "000e0e8cffcc4efc",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b11715af8ac8d91a",
+        "type": "mqtt-broker",
+        "name": "mqtt1",
+        "broker": "eclipse-mosquitto",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d9e5aac221582427",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "my_influxdb",
+        "name": "Test",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "https://us-east-1-1.aws.cloud2.influxdata.com/",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "02e60eabb08af039",
+        "type": "mqtt in",
+        "z": "71ca1bc44c1ef695",
+        "name": "",
+        "topic": "test",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b11715af8ac8d91a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "997ec0d1e0c130d0"
+            ]
+        ]
+    },
+    {
+        "id": "af96161b799ee501",
+        "type": "mqtt out",
+        "z": "71ca1bc44c1ef695",
+        "name": "",
+        "topic": "test",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "b11715af8ac8d91a",
+        "x": 530,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ebf6b1e71bddc2ed",
+        "type": "inject",
+        "z": "71ca1bc44c1ef695",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 180,
+        "wires": [
+            [
+                "af96161b799ee501"
+            ]
+        ]
+    },
+    {
+        "id": "997ec0d1e0c130d0",
+        "type": "function",
+        "z": "71ca1bc44c1ef695",
+        "name": "function 2",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d713a6ba31e13423",
+        "type": "inject",
+        "z": "000e0e8cffcc4efc",
+        "name": "insert",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "42",
+        "payloadType": "str",
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "f3297a644b926185",
+                "f9b4008b799d76ac"
+            ]
+        ]
+    },
+    {
+        "id": "f3297a644b926185",
+        "type": "debug",
+        "z": "000e0e8cffcc4efc",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f9b4008b799d76ac",
+        "type": "influxdb out",
+        "z": "000e0e8cffcc4efc",
+        "influxdb": "d9e5aac221582427",
+        "name": "test_data",
+        "measurement": "test_data",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "nodered_temp",
+        "x": 560,
+        "y": 300,
+        "wires": []
+    }
+]

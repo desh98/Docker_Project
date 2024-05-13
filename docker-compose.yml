@@ -1,0 +1,171 @@
+version: '3'
+
+services:
+  # nodered
+  nodered:
+    build: ./nodered
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./nodered/data:/data
+    environment:
+      - INFLUXDB_HOST=influxdb
+      - INFLUXDB_PORT=8086
+      - INFLUXDB_DATABASE=mydb
+    depends_on:
+      - influxdb
+    networks:
+      - net
+
+  influxdb:
+    build: ./influxdb
+    ports:
+      - "8086:8086"
+    environment:
+      - INFLUXDB_DB=mydb
+    networks:
+      - net
+
+  # # mosquitto
+  # mosquitto:
+  #   build:
+  #     context: ./mosquitto
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - MOSQUITTO_VERSION=${MOSQUITTO_VERSION:-latest}
+  #   environment:
+  #     - MOSQUITTO_USERNAME=${MOSQUITTO_USERNAME}
+  #     - MOSQUITTO_PASSWORD=${MOSQUITTO_PASSWORD}
+  #   image: eclipse-mosquitto:${MOSQUITTO_VERSION:-latest}
+  #   container_name: eclipse-mosquitto
+  #   restart: always
+  #   volumes:
+  #     - ./mosquitto/data:/mosquitto/data
+  #     - ./mosquitto/log:/mosquitto/log
+  #   ports:
+  #     - 1883:1883
+  #   networks:
+  #     - net
+  
+  # # MySQL
+  # mysql:
+  #   build:
+  #     context: ./mysql
+  #     dockerfile: Dockerfile
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+  #     MYSQL_DATABASE: ${MYSQL_DATABASE}
+  #     MYSQL_USER: ${MYSQL_USER}
+  #     MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+  #   volumes:
+  #     - ./mysql/data:/var/lib/mysql
+  #   ports:
+  #     - "3306:3306"
+  #   networks:
+  #     - net
+
+  # # MariaDB
+  # mariadb:
+  #   build:
+  #     context: ./mariadb
+  #     dockerfile: Dockerfile
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+  #     MYSQL_DATABASE: ${MARIADB_DATABASE}
+  #     MYSQL_USER: ${MARIADB_USER}
+  #     MYSQL_PASSWORD: ${MARIADB_PASSWORD}
+  #   volumes:
+  #     - ./mariadb/data:/var/lib/mysql
+  #   ports:
+  #     - "3307:3306"
+  #   networks:
+  #     - net
+
+  # # InfluxDB
+  # influxdb:
+  #   image: influxdb:latest
+  #   restart: always
+  #   environment:
+  #     INFLUXDB_DB: ${INFLUXDB_DB}
+  #     INFLUXDB_ADMIN_USER: ${INFLUXDB_ADMIN_USER}
+  #     INFLUXDB_ADMIN_PASSWORD: ${INFLUXDB_ADMIN_PASSWORD}
+  #   ports:
+  #     - "8086:8086"
+  #   volumes:
+  #     - ./influxdb:/var/lib/influxdb
+  #   networks:
+  #     - net
+
+  # grafana:
+  #   image: grafana/grafana:latest
+  #   ports:
+  #     - '3000:3000'
+  #   volumes:
+  #     - ./grafana:/var/lib/grafana
+  #     - ./grafana-provisioning/:/etc/grafana/provisioning
+  #   depends_on:
+  #     - influxdb
+  #   environment:
+  #     - GF_SECURITY_ADMIN_USER=${GRAFANA_USERNAME}
+  #     - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+
+  
+  # traefik:
+  #   container_name: traefik
+  #   image: "traefik:v2.2.8"
+  #   command:
+  #     - --entrypoints.web.address=:80
+  #     - --entrypoints.websecure.address=:443
+  #     - --providers.docker
+  #     - --log.level=DEBUG
+  #     - --certificatesresolvers.leresolver.acme.httpchallenge=true
+  #     - --certificatesresolvers.leresolver.acme.email=your-email #Set your email address here, is for the generation of SSL certificates with Let's Encrypt. 
+  #     - --certificatesresolvers.leresolver.acme.storage=./acme.json
+  #     - --certificatesresolvers.leresolver.acme.httpchallenge.entrypoint=web
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - "/var/run/docker.sock:/var/run/docker.sock:ro"
+  #     - "./traefik/acme.json:/acme.json"
+  #   labels:
+  #     - "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
+  #     - "traefik.http.routers.http-catchall.entrypoints=web"
+  #     - "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
+  #     - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+
+  # portainer:
+  #   image: portainer/portainer-ce:2.0.0
+  #   command: -H unix:///var/run/docker.sock
+  #   restart: always
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #     - portainer_data:/data
+  #   labels:
+  #     # Frontend
+  #     - "traefik.enable=true"
+  #     - "traefik.http.routers.frontend.rule=Host(`portainer.yourdomain.com`)"
+  #     - "traefik.http.routers.frontend.entrypoints=websecure"
+  #     - "traefik.http.services.frontend.loadbalancer.server.port=9000"
+  #     - "traefik.http.routers.frontend.service=frontend"
+  #     - "traefik.http.routers.frontend.tls.certresolver=leresolver"
+      
+  #     # Edge
+  #     - "traefik.http.routers.edge.rule=Host(`edge.yourdomain.com`)"
+  #     - "traefik.http.routers.edge.entrypoints=websecure"
+  #     - "traefik.http.services.edge.loadbalancer.server.port=8000"
+  #     - "traefik.http.routers.edge.service=edge"
+  #     - "traefik.http.routers.edge.tls.certresolver=leresolver"
+
+  # # Adminer
+  # adminer:
+  #   image: adminer:latest
+  #   restart: always
+  #   ports:
+  #     - "8080:8080"
+  #   networks:
+  #     - net
+
+networks:
+  net:
+    driver: bridge
